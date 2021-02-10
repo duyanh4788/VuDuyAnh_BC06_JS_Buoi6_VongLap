@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BT-JS-B6</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!--BT 1 : Tìm Số Nguyên Dương Nhỏ Nhất   D-->
+        <div class="card my-5">
+            <div class="card-header">
+                <h5>BT 1 : Tìm Số Nguyên Dương Nhỏ Nhất </h5>
+            </div>
+            <div class="card-body">
+                <span>1 + 2 + ... + <span id="thongBaoSND"> N </span> > 1000</span> <br>
+                <button class="btn btn-success my-3" onclick="TimSoNguyenDuong()">Tìm Số Nguyên Dương</button>
+            </div>
+           
+        </div>
+        <!--BT 1 : Tìm Số Nguyên Dương Nhỏ Nhất    D-->
+
+        <!-- BT 2 : Tính Tổng 2 Số X N  -->
+        <div class="card my-5">
+            <div class="card-header">
+                <h5>BT 2 : Tính Tổng 2 Số X N </h5>
+            </div>
+            <div class="card-body">
+                <span>S ( <span id="nhapSoN">N</span> ) = x^1 + x^2 + x^3 + … + x^n</span><br>
+                <button class="btn btn-success my-3" onclick="tinhTongXn()">Tính</button>
+                <p>Note : X = 2 , n = 2</p>
+            </div>
+        </div>
+        <!-- BT 2 : Tính Tổng 2 Số X N    -->
+
+        <!-- BT 3 : Tính Giai Thừa -->
+        <div class="card my-5">
+            <div class="card-header">
+                <h5>BT 3 : Tính Giai Thừa </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Nhập Vào Số : </p>
+                <input type="text" id="soGiaiThua" class="form-control">
+                <button class="btn btn-success my-3" onclick="tinhGiaiThua()">Click</button>
+            </div>
+            <div class="card-footer text-muted alert alert-success" id="thongBaoGT" style="display: none;"></div>
+        </div>
+        <!--  BT 3 : Tính Giai Thừa    -->
+
+        <!-- BT 4 : Tạo Thẻ DIV  D-->
+        <div class="card my-5">
+            <div class="card-header">
+                <h5>BT 4 : Tạo Thẻ DIV</h5>
+            </div>
+            <div class="card-body">
+                <!-- Button -->
+                <button class="btn btn-success my-3" onclick="taoTheDIV()">Tạo Thẻ DIV</button>
+            </div>
+
+            <!-- Thông Báo -->
+            <div class="card-footer text-muted" id="thongBaoDiv"></div>
+
+        </div>
+        <!-- BT 4 : Tính Tiền Cáp D-->
+
+        <!-- BT 5 : In Số Nguyên Tố  -->
+        <div class="card my-5">
+            <div class="card-header">
+                <h5>BT 5 : In Số Nguyên</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Số Nguyên Tố : </p>
+                <input type="text" id="hienThiSNT" class="form-control">
+                <button class="btn btn-success my-3" onclick="inSoNguyen()">In Số Nguyên Tố</button>
+            </div>
+
+            <!-- Thông Báo -->
+            <div class="card-footer text-muted alert alert-success" id="thongBaoInSo" style="display: none;"></div>
+        </div>
+        <!--  BT 5 : In Số Nguyên Tố   -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
